@@ -14,7 +14,7 @@ Before we start the demo, let's learn how to connect Nacos Config to a Spring Cl
 1. Add dependency spring-cloud-starter-alibaba-nacos-discovery in the pom.xml file in your Spring Cloud project.
 
 	    <dependency>
-            <groupId>org.springframework.cloud</groupId>
+            <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
 	
@@ -205,7 +205,7 @@ AccessKey|spring.cloud.nacos.discovery.access-key||
 SecretKey|spring.cloud.nacos.discovery.secret-key||
 Metadata|spring.cloud.nacos.discovery.metadata||Extended data, Configure using Map format
 log name|spring.cloud.nacos.discovery.log-name||
-endpoint|spring.cloud.nacos.discovery.enpoint||The domain name of a service, through which the server address can be dynamically obtained.
+endpoint|spring.cloud.nacos.discovery.endpoint||The domain name of a service, through which the server address can be dynamically obtained.
 Integration Ribbon|ribbon.nacos.enabled|true|
 
 
